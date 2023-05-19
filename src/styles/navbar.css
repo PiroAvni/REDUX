@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-left: 20px;
+  }
+  
+  ul {
+    margin: 0 20px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  
+  a {
+    color: #222;
+    font-size: 22px;
+  }
+  
+  .active {
+    color: red
+  }
